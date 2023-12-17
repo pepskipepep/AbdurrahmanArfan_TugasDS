@@ -3,12 +3,21 @@ Feature: Post test
   Background:
     Given url baseURL
     And print "------- ini adalah test post"
-    * def body = {"name": "morpheus","job": "leader"}
+    * def body = {
+        "id": 0,
+        "username": "pepskipepep",
+        "firstName": "pep",
+        "lastName": "skipepep",
+        "email": "pep@skipepep.pep",
+        "password": "pepskipepep",
+        "phone": "0812pepskipepep",
+        "userStatus": 0
+      }
     * def headerRegress = { Accept: 'application/json'}
 
   @post @test
   Scenario: Regress test post
-    When path "api/users"
+    When path
     And method post
     And headers headerRegress
     And request body

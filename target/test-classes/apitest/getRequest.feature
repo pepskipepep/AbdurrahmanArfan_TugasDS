@@ -27,12 +27,3 @@ Feature: Test get request
     And assert response.data.password == 'test'
     And assert response.data.phone == '9810222889'
     And assert response.data.userStatus == 0
-    # assert data.avatar is not null
-    And match response.data contains { "avatar": '#notnull'}
-    # assert jsonschema validation
-    And match response == '#object'
-      * string jsonData = response
-    # location file JSONSchemaUtil in folder plugins
-      * def SchemaUtils = Java.type('plugins.JSONSchemaUtil')
-      * assert SchemaUtils.isValid(jsonData, jsonSchemaExpected)
-

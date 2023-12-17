@@ -1,27 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: Homework7_Arfan.src.test.java.apitest.RunAllTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.23 s <<< FAILURE! - in Homework7_Arfan.src.test.java.apitest.RunAllTest
-Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel  Time elapsed: 17.214 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
-classpath:apitest/delRequest.feature:10
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/deleteRequest.feature:12
-http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/getRequest.feature:17
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/postRequest.feature:12 ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
-	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:13)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.699 s <<< FAILURE! - in Homework7_Arfan.src.test.java.apitest.RunAllTest
+Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel  Time elapsed: 0.684 s  <<< ERROR!
+java.lang.RuntimeException: mismatched input '"' expecting <EOF>
+	at com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:74)
+	at com.intuit.karate.core.Feature.read(Feature.java:63)
+	at com.intuit.karate.resource.ResourceUtils.findFeatureFiles(ResourceUtils.java:95)
+	at com.intuit.karate.Runner$Builder.resolveAll(Runner.java:248)
+	at com.intuit.karate.Suite.<init>(Suite.java:177)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:483)
+	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

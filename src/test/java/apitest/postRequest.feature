@@ -17,7 +17,7 @@ Feature: Post test
 
   @post @test
   Scenario: Regress test post
-    When path "/"
+    When path
     And method post
     And headers headerRegress
     And request body

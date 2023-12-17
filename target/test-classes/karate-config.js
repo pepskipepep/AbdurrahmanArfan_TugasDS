@@ -6,15 +6,15 @@ function fn() {
   }
   var config = {
     env: env,
-    username: 'belajarKuy',
-    password: 'cobajadulu',
-    baseURL: 'https://petstore.swagger.io/v2/user/'
+    username: 'pepskipepep',
+    password: 'pepskipepep',
+    baseUserURL: 'https://petstore.swagger.io/v2/user'
   }
-  if (env == 'dev') {
-    config.baseURL = 'https://reqres.in/dev'
-  } else if (env == 'stg') {
-    config.baseURL = 'https://reqres.in/stg'
-  }
+  // if (env == 'dev') {
+  //   config.baseURL = 'https://reqres.in/dev'
+  // } else if (env == 'stg') {
+  //   config.baseURL = 'https://reqres.in/stg'
+  // }
 
   karate.configure('connectTimeout',30000)
   karate.configure('readTimeout',30000)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Homework7_Arfan.src.test.java.apitest.RunAllTest" time="17.23" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Homework7_Arfan.src.test.java.apitest.RunAllTest" time="0.699" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire/surefirebooter-20231217214740924_3.jar /home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire 2023-12-17T21-47-40_854-jvmRun1 surefire-20231217214740924_1tmp surefire_0-20231217214740924_2tmp"/>
+    <property name="sun.java.command" value="/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire/surefirebooter-20231217220900793_3.jar /home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire 2023-12-17T22-09-00_738-jvmRun1 surefire-20231217220900793_1tmp surefire_0-20231217220900793_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/test-classes:/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/classes:/home/arfan/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/home/arfan/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/home/arfan/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/home/arfan/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/home/arfan/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/home/arfan/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/home/arfan/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/home/arfan/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/arfan/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/home/arfan/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/home/arfan/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/home/arfan/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/home/arfan/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/arfan/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/home/arfan/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/home/arfan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/home/arfan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/home/arfan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/home/arfan/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/home/arfan/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/home/arfan/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/home/arfan/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/arfan/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/arfan/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/home/arfan/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/arfan/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/home/arfan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/home/arfan/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/home/arfan/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/home/arfan/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.12.0/native-linux-x86_64-1.12.0.jar:/home/arfan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/home/arfan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/home/arfan/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/arfan/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/home/arfan/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/home/arfan/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/home/arfan/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/arfan/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/home/arfan/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/home/arfan/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/home/arfan/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/arfan/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/home/arfan/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/home/arfan/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/home/arfan/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/home/arfan/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/home/arfan/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/home/arfan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/arfan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/arfan/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/arfan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/arfan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/arfan/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/home/arfan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/arfan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/home/arfan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/arfan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/arfan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/arfan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/arfan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/arfan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/arfan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/arfan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/arfan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/arfan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/arfan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/arfan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/arfan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/arfan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/arfan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/arfan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/arfan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/arfan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/arfan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.0/jackson-core-2.12.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire/surefirebooter-20231217214740924_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/surefire/surefirebooter-20231217220900793_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+9-post-Ubuntu-0ubuntu120.04"/>
     <property name="user.name" value="arfan"/>
@@ -59,26 +59,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testParallel" classname="Homework7_Arfan.src.test.java.apitest.RunAllTest" time="17.214">
-    <failure message="http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3&#10;java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution&#10;classpath:apitest/delRequest.feature:10&#10;http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1&#10;java.net.UnknownHostException: petstore.swagger.io&#10;classpath:apitest/deleteRequest.feature:12&#10;http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1&#10;java.net.UnknownHostException: petstore.swagger.io&#10;classpath:apitest/getRequest.feature:17&#10;http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users&#10;java.net.UnknownHostException: petstore.swagger.io&#10;classpath:apitest/postRequest.feature:12 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
-classpath:apitest/delRequest.feature:10
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/deleteRequest.feature:12
-http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/getRequest.feature:17
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/postRequest.feature:12 ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
-	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:13)
+  <testcase name="testParallel" classname="Homework7_Arfan.src.test.java.apitest.RunAllTest" time="0.684">
+    <error message="mismatched input &apos;&quot;&apos; expecting &lt;EOF&gt;" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: mismatched input '"' expecting <EOF>
+	at com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:74)
+	at com.intuit.karate.core.Feature.read(Feature.java:63)
+	at com.intuit.karate.resource.ResourceUtils.findFeatureFiles(ResourceUtils.java:95)
+	at com.intuit.karate.Runner$Builder.resolveAll(Runner.java:248)
+	at com.intuit.karate.Suite.<init>(Suite.java:177)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:483)
+	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,89 +139,10 @@ classpath:apitest/postRequest.feature:12 ==> expected: <true> but was: <false>
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[21:47:42.068 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702824462065
-21:47:42.656 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:47:42.681 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
-21:47:57.864 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution, http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-21:47:57.868 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:10
-And method delete
-http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
-classpath:apitest/delRequest.feature:10
----------------------------------------------------------
-feature: classpath:apitest/delRequest.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 15.1842
----------------------------------------------------------
-
-21:47:58.257 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
-21:47:58.264 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:47:58.266 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
-21:47:58.269 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-21:47:58.269 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:12
-And method delete
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/deleteRequest.feature:12
----------------------------------------------------------
-feature: classpath:apitest/deleteRequest.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0.0032
----------------------------------------------------------
-
-21:47:58.329 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
-21:47:58.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:47:58.340 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
-21:47:58.359 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
-21:47:58.360 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:17
-And method get
-http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/getRequest.feature:17
----------------------------------------------------------
-feature: classpath:apitest/getRequest.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0.0201
----------------------------------------------------------
-
-21:47:58.438 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
-21:47:58.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:47:58.444 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
-21:47:58.446 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-21:47:58.446 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:12
-And method post
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/postRequest.feature:12
----------------------------------------------------------
-feature: classpath:apitest/postRequest.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0.0026
----------------------------------------------------------
-
-21:47:58.488 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
-Karate version: 1.4.1
-======================================================
-elapsed:  16.86 | threads:    1 | thread time: 15.21 
-features:     4 | skipped:    0 | efficiency: 0.90
-scenarios:    4 | passed:     0 | failed: 4
-======================================================
->>> failed features:
-http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
-classpath:apitest/delRequest.feature:10
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/deleteRequest.feature:12
-http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/getRequest.feature:17
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/postRequest.feature:12
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.4.1
-file:///home/arfan/coding/DigitalSkola-QA/Homework7_Arfan/target/karate-reports/karate-summary.html
-===================================================================
-
+]]></error>
+    <system-out><![CDATA[22:09:01.873 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
 ]]></system-out>
+    <system-err><![CDATA[line 7:8 mismatched input '"' expecting <EOF>
+]]></system-err>
   </testcase>
 </testsuite>
