@@ -1,0 +1,265 @@
+20:09:53.300 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:09:53.329 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+20:10:09.408 [main] INFO  com.intuit.karate - [print]  
+20:10:09.956 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:apitest/delRequest.feature
+20:10:09.970 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:10:09.977 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+20:10:10.618 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:10:10.632 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:10:10.636 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+20:10:41.523 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:10:41.973 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:apitest/getRequest.feature
+20:10:41.982 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:10:41.985 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+20:10:43.680 [main] INFO  com.intuit.karate - [print] {
+  "id": "933",
+  "createdAt": "2023-12-17T13:10:43.612Z"
+}
+ 
+20:10:43.717 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:apitest/postRequest.feature
+20:18:30.774 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702819110771
+20:18:31.549 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:18:31.576 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+20:18:33.670 [main] INFO  com.intuit.karate - [print]  
+20:18:34.120 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:apitest/delRequest.feature
+20:18:34.128 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:18:34.131 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+20:19:05.927 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:19:05.934 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:19:05.935 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+20:19:09.953 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:19:10.356 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:apitest/getRequest.feature
+20:19:10.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:19:10.363 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+20:19:12.250 [main] INFO  com.intuit.karate - [print] {
+  "id": "666",
+  "createdAt": "2023-12-17T13:19:12.298Z"
+}
+ 
+20:19:12.304 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:apitest/postRequest.feature
+21:28:47.879 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702823327876
+21:28:48.482 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:28:48.518 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:31:21.114 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:31:21.143 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:32:00.681 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:00.707 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:34:30.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:34:30.985 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:37:23.610 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:23.642 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:39:20.503 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:39:20.529 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:41:40.067 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:41:55.499 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:42:41.824 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:42:52.442 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:43:04.475 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:44:14.153 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:14.189 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:44:28.050 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:45:06.947 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:45:44.547 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:45:56.910 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:56.935 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:46:03.534 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:11
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 6439, url: https://petstore.swagger.io/v2/user/api/users/3, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users/3</message><type>unknown</type></apiResponse>
+classpath:apitest/delRequest.feature:11
+21:46:03.928 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:46:03.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:46:03.939 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:46:05.104 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:11
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1161, url: https://petstore.swagger.io/v2/user/api/users/3, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users/3</message><type>unknown</type></apiResponse>
+classpath:apitest/deleteRequest.feature:11
+21:46:05.172 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:46:05.178 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:46:05.180 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:46:06.078 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:19
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 875, url: https://petstore.swagger.io/v2/user/login/user1, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/login/user1</message><type>unknown</type></apiResponse>
+classpath:apitest/getRequest.feature:19
+21:46:06.152 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:46:06.156 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:46:06.158 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:46:07.263 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1096, url: https://petstore.swagger.io/v2/user/api/users, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users</message><type>unknown</type></apiResponse>
+classpath:apitest/postRequest.feature:15
+21:46:07.302 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:47:42.068 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702824462065
+21:47:42.656 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:47:42.681 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:47:57.864 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution, http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
+21:47:57.868 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:10
+And method delete
+http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
+java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
+classpath:apitest/delRequest.feature:10
+21:47:58.257 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:47:58.264 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:47:58.266 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:47:58.269 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
+21:47:58.269 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:12
+And method delete
+http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
+java.net.UnknownHostException: petstore.swagger.io
+classpath:apitest/deleteRequest.feature:12
+21:47:58.329 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:47:58.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:47:58.340 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:47:58.359 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
+21:47:58.360 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:17
+And method get
+http call failed after 2 milliseconds for url: https://petstore.swagger.io/v2/user/login/user1
+java.net.UnknownHostException: petstore.swagger.io
+classpath:apitest/getRequest.feature:17
+21:47:58.438 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:47:58.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:47:58.444 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:47:58.446 [main] ERROR com.intuit.karate - java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
+21:47:58.446 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:12
+And method post
+http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
+java.net.UnknownHostException: petstore.swagger.io
+classpath:apitest/postRequest.feature:12
+21:47:58.488 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
