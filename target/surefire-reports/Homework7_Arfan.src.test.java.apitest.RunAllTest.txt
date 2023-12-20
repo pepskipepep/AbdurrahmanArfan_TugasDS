@@ -1,16 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: Homework7_Arfan.src.test.java.apitest.RunAllTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.699 s <<< FAILURE! - in Homework7_Arfan.src.test.java.apitest.RunAllTest
-Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel  Time elapsed: 0.684 s  <<< ERROR!
-java.lang.RuntimeException: mismatched input '"' expecting <EOF>
-	at com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:74)
-	at com.intuit.karate.core.Feature.read(Feature.java:63)
-	at com.intuit.karate.resource.ResourceUtils.findFeatureFiles(ResourceUtils.java:95)
-	at com.intuit.karate.Runner$Builder.resolveAll(Runner.java:248)
-	at com.intuit.karate.Suite.<init>(Suite.java:177)
-	at com.intuit.karate.Runner$Builder.parallel(Runner.java:483)
-	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:12)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.708 s <<< FAILURE! - in Homework7_Arfan.src.test.java.apitest.RunAllTest
+Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel  Time elapsed: 5.691 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+status code was: 404, expected: 204, response time in milliseconds: 1388, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+status code was: 404, expected: 200, response time in milliseconds: 914, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+status code was: 415, expected: 200, response time in milliseconds: 891, url: https://petstore.swagger.io/v2/user/, response: 
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.User, and Java type class io.swagger.sample.model.User, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+classpath:apitest/postRequest.feature:15 ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at Homework7_Arfan.src.test.java.apitest.RunAllTest.testParallel(RunAllTest.java:13)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

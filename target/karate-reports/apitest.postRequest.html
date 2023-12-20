@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-12-17 09:47:58 PM</div>
+    <div>2023-12-20 10:06:48 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3</span>
+              <span>ms:</span>&nbsp;<span>902</span>
             </div>
           </div>
           <div class="step-row">
@@ -101,10 +101,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url baseURL</span>
+        <span>Given</span>&nbsp;<span>url baseUserURL</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">21:47:58.443 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">22:06:47.490 karate.env system property was: null 
 </div>   
 
   
@@ -130,10 +130,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print &quot;------- ini adalah test post&quot;</span>
+        <span>And</span>&nbsp;<span>print &quot;------- ini adalah test post request&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -142,7 +142,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">21:47:58.444 [print] ------- ini adalah test post 
+  <div class="preformatted" data-parent="0.5">22:06:47.497 [print] ------- ini adalah test post request 
 </div>   
 
   
@@ -159,7 +159,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def body = {&quot;name&quot;: &quot;morpheus&quot;,&quot;job&quot;: &quot;leader&quot;}</span>
+        <span>*</span>&nbsp;<span>def body = {&quot;id&quot;: 0,&quot;username&quot;: &quot;pepskipepep&quot;,&quot;firstName&quot;: &quot;pep&quot;,&quot;lastName&quot;: &quot;skipepep&quot;,&quot;email&quot;: &quot;pep@skipepep.pep&quot;,&quot;password&quot;: &quot;pepskipepep&quot;,&quot;phone&quot;: &quot;0812pepskipepep&quot;,&quot;userStatus&quot;: 0}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -187,7 +187,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def headerRegress = { Accept: &#39;application/json&#39;}</span>
+        <span>*</span>&nbsp;<span>def headerRegress = { Content-Type: &#39;application/json&#39;}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -215,7 +215,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>path &quot;api/users&quot;</span>
+        <span>When</span>&nbsp;<span>path &quot;&quot;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -240,13 +240,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref failed">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell failed">1</div>
+    <div class="time-cell passed">895</div>
   </div>
 
    
@@ -255,13 +255,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">21:47:58.446 java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-21:47:58.447 classpath:apitest/postRequest.feature:12
-And method post
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/api/users
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/postRequest.feature:12
-</div>   
+     
 
   
 
@@ -274,13 +268,13 @@ classpath:apitest/postRequest.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>headers headerRegress</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -302,13 +296,13 @@ classpath:apitest/postRequest.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.14">
-      <div class="step-ref skipped">14</div>
+      <div class="step-ref passed">14</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request body</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -330,13 +324,13 @@ classpath:apitest/postRequest.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+      <div class="step-ref failed">15</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 201</span>
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell failed">0</div>
   </div>
 
    
@@ -345,7 +339,12 @@ classpath:apitest/postRequest.feature:12
 
   
 
-     
+  <div class="preformatted" data-parent="0.15">22:06:48.398 classpath:apitest/postRequest.feature:15
+Then status 200
+status code was: 415, expected: 200, response time in milliseconds: 891, url: https://petstore.swagger.io/v2/user/, response: 
+{&quot;code&quot;:415,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.User, and Java type class io.swagger.sample.model.User, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* -&gt;\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream -&gt;\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n&quot;}
+classpath:apitest/postRequest.feature:15
+</div>   
 
   
 

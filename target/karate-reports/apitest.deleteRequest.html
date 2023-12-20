@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-12-17 09:47:58 PM</div>
+    <div>2023-12-20 10:06:46 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3</span>
+              <span>ms:</span>&nbsp;<span>1570</span>
             </div>
           </div>
           <div class="step-row">
@@ -101,10 +101,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url baseURL</span>
+        <span>Given</span>&nbsp;<span>url baseUserURL</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">21:47:58.264 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">22:06:44.803 karate.env system property was: null 
 </div>   
 
   
@@ -133,7 +133,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>print &quot;This is Delete step preparation&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -142,7 +142,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">21:47:58.266 [print] This is Delete step preparation 
+  <div class="preformatted" data-parent="0.5">22:06:44.807 [print] This is Delete step preparation 
 </div>   
 
   
@@ -190,7 +190,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>path &#39;/&#39; + username</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -212,13 +212,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref failed">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell failed">1</div>
+    <div class="time-cell passed">1563</div>
   </div>
 
    
@@ -227,13 +227,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">21:47:58.269 java.net.UnknownHostException: petstore.swagger.io, http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-21:47:58.269 classpath:apitest/deleteRequest.feature:12
-And method delete
-http call failed after 1 milliseconds for url: https://petstore.swagger.io/v2/user/user1
-java.net.UnknownHostException: petstore.swagger.io
-classpath:apitest/deleteRequest.feature:12
-</div>   
+     
 
   
 
@@ -246,13 +240,13 @@ classpath:apitest/deleteRequest.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref failed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell failed">
         <span>Then</span>&nbsp;<span>status 204</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell failed">3</div>
   </div>
 
    
@@ -261,7 +255,12 @@ classpath:apitest/deleteRequest.feature:12
 
   
 
-     
+  <div class="preformatted" data-parent="0.13">22:06:46.376 classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1388, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+</div>   
 
   
 

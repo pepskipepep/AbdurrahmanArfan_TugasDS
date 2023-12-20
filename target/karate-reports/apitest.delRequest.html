@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-12-17 09:47:57 PM</div>
+    <div>2023-12-20 10:06:44 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>15184</span>
+              <span>ms:</span>&nbsp;<span>6</span>
             </div>
           </div>
           <div class="step-row">
@@ -100,11 +100,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div class="step-container" id="0.4">
       <div class="step-ref bg-step">4</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>Given</span>&nbsp;<span>url baseURL</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell failed">6</div>
   </div>
 
    
@@ -113,7 +113,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">21:47:42.658 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">22:06:44.308 karate.env system property was: null 
+22:06:44.341 classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+&gt;&gt;&gt;&gt;
+01: baseURL
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;baseURL&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
 </div>   
 
   
@@ -129,11 +139,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>print &quot;This is Delete step preparation&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -142,8 +152,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">21:47:42.682 [print] This is Delete step preparation 
-</div>   
+     
 
   
 
@@ -156,13 +165,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.9">
-      <div class="step-ref passed">9</div>
+      <div class="step-ref skipped">9</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>When</span>&nbsp;<span>path &#39;/api/users/3&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -184,13 +193,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.10">
-      <div class="step-ref failed">10</div>
+      <div class="step-ref skipped">10</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell failed">15182</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -199,13 +208,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">21:47:57.864 java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution, http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-21:47:57.868 classpath:apitest/delRequest.feature:10
-And method delete
-http call failed after 15177 milliseconds for url: https://petstore.swagger.io/v2/user/api/users/3
-java.net.UnknownHostException: petstore.swagger.io: Temporary failure in name resolution
-classpath:apitest/delRequest.feature:10
-</div>   
+     
 
   
 

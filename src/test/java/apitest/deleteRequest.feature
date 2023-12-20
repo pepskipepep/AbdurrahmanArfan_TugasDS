@@ -1,7 +1,7 @@
 Feature: Delete request regress
 
   Background: Preparation
-    Given url baseURL
+    Given url baseUserURL
     And print "This is Delete step preparation"
 
   @test

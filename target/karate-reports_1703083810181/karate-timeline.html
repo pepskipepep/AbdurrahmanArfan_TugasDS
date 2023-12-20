@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"apitest\/delRequest[1:8]","start":1703083763821,"end":1703083763952,"title":"apitest\/delRequest[1:8] 21:49:23.821-21:49:23.952 Test Delete data in regress","className":"failed"},{"id":2,"group":1,"content":"apitest\/deleteRequest[1:8]","start":1703083764376,"end":1703083764383,"title":"apitest\/deleteRequest[1:8] 21:49:24.376-21:49:24.383 Test Delete data in regress","className":"failed"},{"id":3,"group":1,"content":"apitest\/getRequest[1:10]","start":1703083764449,"end":1703083764452,"title":"apitest\/getRequest[1:10] 21:49:24.449-21:49:24.452 User get list users page 1","className":"failed"},{"id":4,"group":1,"content":"apitest\/getRequest[2:18]","start":1703083764457,"end":1703083764460,"title":"apitest\/getRequest[2:18] 21:49:24.457-21:49:24.460 User get user data using id","className":"failed"},{"id":5,"group":1,"content":"apitest\/postRequest[1:10]","start":1703083764606,"end":1703083764611,"title":"apitest\/postRequest[1:10] 21:49:24.606-21:49:24.611 Regress test post","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

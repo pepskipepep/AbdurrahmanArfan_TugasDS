@@ -264,3 +264,712 @@ java.net.UnknownHostException: petstore.swagger.io
 classpath:apitest/postRequest.feature:12
 21:47:58.488 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
 22:09:01.873 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:02:19.577 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:09:44.483 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:10:49.139 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:12:40.145 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703081560141
+21:12:40.874 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:12:40.914 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:12:41.811 [main] INFO  com.intuit.karate - [print]  
+21:12:42.242 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:12:42.253 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:12:42.257 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:12:42.795 [main] INFO  com.intuit.karate - [print]  
+21:12:42.851 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:12:42.855 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:12:42.859 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:12:43.058 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:12:43.074 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:12:43.079 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:12:43.299 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:12:43.369 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:38
+* def SchemaUtils = Java.type('plugins.JSONSchemaUtil')
+js failed:
+>>>>
+01: Java.type('plugins.JSONSchemaUtil')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class plugins.JSONSchemaUtil is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:38
+21:12:43.534 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:12:43.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:12:43.545 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:12:44.091 [main] INFO  com.intuit.karate - [print] {
+  "id": "864",
+  "createdAt": "2023-12-20T14:12:43.957Z"
+}
+ 
+21:12:44.152 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:13:38.407 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703081618404
+21:13:39.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:39.110 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:13:39.943 [main] INFO  com.intuit.karate - [print]  
+21:13:40.330 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:13:40.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:40.340 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:13:40.884 [main] INFO  com.intuit.karate - [print]  
+21:13:40.948 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:13:40.954 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:40.957 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:13:41.160 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:13:41.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:41.180 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:13:41.519 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:13:41.522 [main] INFO  com.intuit.karate - [print] awikwok 
+21:13:41.523 [main] INFO  com.intuit.karate - [print] Janet 
+21:13:41.624 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:13:41.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:41.632 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:13:42.277 [main] INFO  com.intuit.karate - [print] {
+  "id": "270",
+  "createdAt": "2023-12-20T14:13:42.145Z"
+}
+ 
+21:13:42.326 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:49:23.220 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703083763217
+21:49:23.907 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:23.952 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:49:24.372 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:49:24.379 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:24.383 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/deleteRequest.feature:4
+21:49:24.442 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:49:24.450 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:24.453 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:49:24.458 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:24.461 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:49:24.599 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:49:24.606 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:24.610 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/postRequest.feature:4
+21:49:24.661 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:50:10.184 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703083810181
+21:50:10.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:10.922 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:50:11.415 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:50:11.423 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:11.427 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/deleteRequest.feature:4
+21:50:11.512 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:50:11.520 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:11.523 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:50:11.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:11.545 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:50:11.719 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:50:11.726 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:11.728 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/postRequest.feature:4
+21:50:11.788 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:50:35.704 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703083835701
+21:50:36.377 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:36.417 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:50:36.846 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:50:36.856 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:36.861 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:50:38.459 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1410, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+21:50:38.508 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:50:38.512 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:38.514 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:50:38.518 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:38.521 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/getRequest.feature:4
+21:50:38.614 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:50:38.620 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:38.622 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/postRequest.feature:4
+21:50:38.680 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:51:19.676 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703083879673
+21:51:20.408 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:51:20.450 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:51:20.871 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:51:20.879 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:51:20.883 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:51:22.479 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1404, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+21:51:22.545 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:51:22.552 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:51:22.554 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:51:23.496 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:19
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 902, url: https://petstore.swagger.io/v2/user/login/user1, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/login/user1</message><type>unknown</type></apiResponse>
+classpath:apitest/getRequest.feature:19
+21:51:23.570 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:51:23.578 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:51:23.581 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/postRequest.feature:4
+21:51:23.653 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:51:45.621 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:54:21.963 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: apitest/postRequest.feature - mismatched input '"' expecting <EOF>
+21:54:43.334 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084083330
+21:54:44.079 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:44.131 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:54:44.564 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:54:44.571 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:44.574 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:54:46.099 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1350, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+21:54:46.167 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:54:46.174 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:46.178 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:54:47.106 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:19
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 886, url: https://petstore.swagger.io/v2/user/login/user1, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/login/user1</message><type>unknown</type></apiResponse>
+classpath:apitest/getRequest.feature:19
+21:54:47.188 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:54:47.194 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:47.196 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:54:48.123 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 914, url: https://petstore.swagger.io/v2/user/api/users, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users</message><type>unknown</type></apiResponse>
+classpath:apitest/postRequest.feature:15
+21:54:48.171 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:56:15.399 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084175395
+21:56:16.194 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:16.245 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:56:16.727 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:56:16.738 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:16.743 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:56:18.361 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1407, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+21:56:18.414 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:56:18.418 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:18.421 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:56:19.384 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:19
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 935, url: https://petstore.swagger.io/v2/user/login/user1, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/login/user1</message><type>unknown</type></apiResponse>
+classpath:apitest/getRequest.feature:19
+21:56:19.487 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:56:19.495 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:19.498 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:56:20.452 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 947, url: https://petstore.swagger.io/v2/user/api/users, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users</message><type>unknown</type></apiResponse>
+classpath:apitest/postRequest.feature:15
+21:56:20.507 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+21:58:30.235 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084310231
+21:58:30.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:30.956 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+21:58:31.442 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+21:58:31.451 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:31.455 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+21:58:33.038 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1389, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+21:58:33.099 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+21:58:33.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:33.106 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+21:58:34.121 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 992, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+21:58:34.174 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+21:58:34.178 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:34.180 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+21:58:35.064 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 866, url: https://petstore.swagger.io/v2/user/api/users, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/user/api/users</message><type>unknown</type></apiResponse>
+classpath:apitest/postRequest.feature:15
+21:58:35.105 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+22:01:40.395 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084500391
+22:01:41.139 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:41.185 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+22:01:41.640 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+22:01:41.651 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:41.655 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:01:43.287 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1372, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+22:01:43.347 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+22:01:43.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:43.359 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Feature ======== 
+22:01:44.343 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 962, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+22:01:44.396 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+22:01:44.399 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:44.401 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:01:44.402 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:11
+When path
+no step-definition method match found for: path
+classpath:apitest/postRequest.feature:11
+22:01:44.462 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+22:03:53.448 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084633444
+22:03:54.158 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:54.196 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+22:03:54.611 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+22:03:54.620 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:54.623 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:03:56.241 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1468, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+22:03:56.288 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+22:03:56.292 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:56.294 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Feature ======== 
+22:03:57.217 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 896, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+22:03:57.267 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+22:03:57.271 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:57.273 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:03:57.274 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:11
+When path
+no step-definition method match found for: path
+classpath:apitest/postRequest.feature:11
+22:03:57.321 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+22:05:11.903 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084711899
+22:05:12.605 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:12.660 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+22:05:13.106 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+22:05:13.114 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:13.118 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:05:14.812 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1503, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+22:05:14.888 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+22:05:14.893 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:14.895 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Feature ======== 
+22:05:15.783 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 863, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+22:05:15.854 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+22:05:15.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:15.863 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post request 
+22:05:15.864 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:11
+When path
+no step-definition method match found for: path
+classpath:apitest/postRequest.feature:11
+22:05:15.929 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+22:05:42.813 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084742810
+22:05:43.597 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:43.644 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+22:05:44.055 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+22:05:44.061 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:44.064 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:05:45.533 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1293, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+22:05:45.582 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+22:05:45.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:45.589 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Feature ======== 
+22:05:46.538 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 930, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+22:05:46.587 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+22:05:46.591 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:46.592 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post request 
+22:05:47.514 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 200
+status code was: 415, expected: 200, response time in milliseconds: 913, url: https://petstore.swagger.io/v2/user/, response: 
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.User, and Java type class io.swagger.sample.model.User, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+classpath:apitest/postRequest.feature:15
+22:05:47.578 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
+22:06:43.612 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1703084803610
+22:06:44.306 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:44.341 [main] ERROR com.intuit.karate - classpath:apitest/delRequest.feature:4
+Given url baseURL
+js failed:
+>>>>
+01: baseURL
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseURL" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:apitest/delRequest.feature:4
+22:06:44.794 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:apitest/delRequest.feature
+22:06:44.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:44.807 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:06:46.375 [main] ERROR com.intuit.karate - classpath:apitest/deleteRequest.feature:13
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1388, url: https://petstore.swagger.io/v2/user/user1, response: 
+
+classpath:apitest/deleteRequest.feature:13
+22:06:46.434 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (0 remaining) classpath:apitest/deleteRequest.feature
+22:06:46.441 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:46.444 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Feature ======== 
+22:06:47.385 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:20
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 914, url: https://petstore.swagger.io/v2/user/login%3Fusername=pepskipepep&password=pepskipepep, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:20
+22:06:47.467 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (0 remaining) classpath:apitest/getRequest.feature
+22:06:47.488 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:47.497 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post request 
+22:06:48.397 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 200
+status code was: 415, expected: 200, response time in milliseconds: 891, url: https://petstore.swagger.io/v2/user/, response: 
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.User, and Java type class io.swagger.sample.model.User, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+classpath:apitest/postRequest.feature:15
+22:06:48.459 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:apitest/postRequest.feature
