@@ -16,36 +16,31 @@ public class SeleniumTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         
-        driver.get("http://www.yopmail.com/");
+        // Buka makemytrip.com
+        driver.get("https://www.makemytrip.com/");
 
-        WebElement searchBox = driver.findElement(By.id("login"));
-        searchBox.sendKeys("automationtest");
-        WebElement checkInboxButton = driver.findElement(By.cssSelector("button.md"));
-        checkInboxButton.click();
+        // Cari elemen kotak pencarian dan masukkan kata kunci
+        WebElement searchBox = driver.findElement(By.id("fromCity"));
+        searchBox.sendKeys("New York");
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Tunggu beberapa saat agar dropdown muncul dan pilih kota dari dropdown
+        // (Perhatikan bahwa ini hanya langkah sederhana, dan Anda mungkin perlu menyesuaikannya dengan perilaku aktual situs web)
+        // ...
 
-        driver.switchTo().frame("ifinbox");
+        // Cari tombol untuk mencari dan klik
+        WebElement searchButton = driver.findElement(By.xpath("//button[@class='fsw_search__btn']"));
+        searchButton.click();
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Tunggu beberapa saat agar hasil pencarian muncul dan cari elemen harga teratas
+        WebElement topPriceElement = driver.findElement(By.xpath("//span[@class='actual-price']"));
 
-        driver.switchTo().defaultContent();
-        WebElement iframeElement = driver.findElement(By.id("ifmail"));
-        driver.switchTo().frame(iframeElement);
+        // Ambil nilai teks dari elemen harga teratas
+        String topPrice = topPriceElement.getText();
 
-        WebElement emailContent = driver.findElement(By.id("mail"));
-        String content = emailContent.getText();
-        
-        System.out.println("Email Content:\n" + content);
+        // Cetak harga teratas
+        System.out.println("Top Price: " + topPrice);
 
+        // Tutup browser
         driver.quit();
     }
 

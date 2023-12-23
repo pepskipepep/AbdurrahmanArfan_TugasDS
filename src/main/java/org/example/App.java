@@ -1,4 +1,4 @@
-package Homework8_Arfan.src.main.java.org.example;
+package org.example;
 
 /**
  * Hello world!
