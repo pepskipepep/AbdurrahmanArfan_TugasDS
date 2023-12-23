@@ -37,8 +37,13 @@ public class SeleniumTest {
             e.printStackTrace();
         }
 
-        WebElement emailContent = driver.findElement(By.id("iframe#ifmail"));
+        driver.switchTo().defaultContent();
+        WebElement iframeElement = driver.findElement(By.id("ifmail"));
+        driver.switchTo().frame(iframeElement);
+
+        WebElement emailContent = driver.findElement(By.id("mail"));
         String content = emailContent.getText();
+        
         System.out.println("Email Content:\n" + content);
 
         driver.quit();
