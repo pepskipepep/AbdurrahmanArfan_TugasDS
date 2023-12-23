@@ -1,4 +1,4 @@
-package Homework8_Arfan.src.test.java.org.example;
+package org.example;
 
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
