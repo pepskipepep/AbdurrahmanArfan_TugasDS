@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: org.example.SeleniumTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.542 s <<< FAILURE! - in org.example.SeleniumTest
-loginTest(org.example.SeleniumTest)  Time elapsed: 8.39 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='fsw_search__btn']"}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.689 s <<< FAILURE! - in org.example.SeleniumTest
+loginTest(org.example.SeleniumTest)  Time elapsed: 21.533 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=119.0.6045.199)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
 Build info: version: '4.9.0', revision: 'd7057100a6'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-91-generic', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [97451b1d6977639a4e89ea6b8a195672, findElement {using=xpath, value=//button[@class='fsw_search__btn']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36493/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97451b1d6977639a4e89ea6b8a195672
-	at org.example.SeleniumTest.loginTest(SeleniumTest.java:31)
+Command: [679c8b9d5f72fb66da7324816269baec, findElement {using=css selector, value=div.blackText.fontSize18.blackFont.white-space-no-wrap.clusterViewPrice']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:40261/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 679c8b9d5f72fb66da7324816269baec
+	at org.example.SeleniumTest.loginTest(SeleniumTest.java:59)
 
